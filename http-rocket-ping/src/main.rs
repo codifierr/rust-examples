@@ -1,4 +1,4 @@
-use rocket::{get,routes,launch};
+use rocket::{get, launch, routes};
 
 #[get("/ping")]
 fn ping() -> &'static str {
